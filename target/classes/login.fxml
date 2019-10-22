@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="650.0" prefWidth="900.0"
+            styleClass="theBackground"
+            stylesheets="style.css"
+            xmlns="http://javafx.com/javafx/10.0.1"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controllers.LoginController">
+   <children>
+      <!--<TextField fx:id="idText" layoutX="233.0" layoutY="153.0" prefHeight="27.0" prefWidth="156.0" promptText="Student ID" />-->
+      <!--<TextField fx:id="nameText" layoutX="233.0" layoutY="213.0" prefHeight="26.0" prefWidth="156.0" promptText="Name" />-->
+      <!--<TextField fx:id="yearText" layoutX="206.0" layoutY="257.0" prefHeight="26.0" prefWidth="73.0" promptText="Year" />-->
+      <!--<TextField fx:id="semesterText" layoutX="316.0" layoutY="258.0" prefHeight="26.0" prefWidth="74.0" promptText="Semester" />-->
+      <!--<Button fx:id="loginBtn" layoutX="259.0" layoutY="285.0" mnemonicParsing="false" onAction="#loginBtnHandler" prefHeight="27.0" prefWidth="105.0" text="Login">-->
+         <!--<font>-->
+            <!--<Font size="16.0" />-->
+         <!--</font></Button>-->
+      <!--<Label layoutX="212.0" layoutY="42.0" prefHeight="85.0" prefWidth="199.0" text="Sign in" textAlignment="CENTER" textFill="WHITE">-->
+         <!--<font>-->
+            <!--<Font size="60.0" />-->
+         <!--</font></Label>-->
+      <!--<Label layoutX="154.0" layoutY="155.0" text="Student ID" textFill="WHITE" />-->
+      <!--<Label layoutX="179.0" layoutY="218.0" text="Name" textFill="WHITE" />-->
+      <Button fx:id="startBtn" layoutX="195.0" layoutY="413.0" mnemonicParsing="false" onAction="#startHandlerBtn" prefHeight="106.0" prefWidth="515.0" text="Press to Start">
+         <font>
+            <Font size="60.0" />
+         </font></Button>
+      <Pane layoutX="60.0" layoutY="106.0" prefHeight="137.0" prefWidth="785.0" style="-fx-background-color: white;">
+         <children>
+            <Label layoutX="23.0" layoutY="8.0" lineSpacing="2.0" prefHeight="123.0" prefWidth="769.0" text="KU Registration" textAlignment="CENTER" textOverrun="CLIP">
+               <font>
+                  <Font size="100.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="0.354916067146283">
+                     <stops>
+                        <Stop color="#2aa42a" />
+                        <Stop color="#114611" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+         </children></Pane>
+      <!--<Label layoutX="323.0" layoutY="234.0" text="Semester" textFill="WHITE" />-->
+      <!--<Label layoutX="225.0" layoutY="233.0" text="Year" textFill="WHITE" />-->
+   </children>
+</AnchorPane>

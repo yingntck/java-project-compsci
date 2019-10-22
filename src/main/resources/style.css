@@ -1,0 +1,11 @@
+/*
+ปุ่มเปลี่ยนสี
+ */
+
+.button:hover {
+    -fx-background-color : #d6d6d6;
+}
+
+.theBackground {
+    -fx-background-color : #228b22;
+}
